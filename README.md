@@ -1,28 +1,23 @@
-# 🌲 Cypress, do Zero à Nuvem ☁️
+# Teste de dados cy
+Projeto de exemplo para demonstrar um cy.dataTestcomando personalizado do Cypress.
 
-👋 Seja bem-vindo(a)!
+## Pré-requisitos
+É necessário ter o Node.js e o npm instalados para executar este projeto.
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai amar esse curso. ❤️
+> Eu utilizei as versões v18.15.0[inserir 9.5.0versões aqui] do Node.js e do npm, respectivamente. Sugiro que você utilize versões iguais ou posteriores.
 
-## O que você vai aprender?
+## Instalação
+Execute npm install(ou, npm ipara a versão resumida) para instalar as dependências de desenvolvimento.
 
-- Como configurar um projeto Cypress do zero
-- Como visitar páginas locais e remotas
-- Como lidar com os elementos mais comuns encontrados em aplicações web
-- Como testar upload de arquivos
-- Como realizar as mais diversas verificações de resultados esperados
-- Como criar comandos customizados
-- Como lidar com links que abrem em outra aba do navegador
-- Como rodar testes simulando as dimensões de um dispositivo móvel
-- Como resolver os mesmos problemas de diferentes formas, conhecendo a [API do Cypress](https://docs.cypress.io/api/table-of-contents)
-- Como criar uma documentação mínima para seu projeto de testes automatizados
-- Como executar os testes em um _workflow_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)
-- Como integrar seu _workflow_ de integração contínua com o Cypress Cloud (o serviço de gestão de testes do Cypress na nuvem)
+## Testes
+> Observação: Antes de executar os testes, faça uma cópia do cypress.env.example.jsonarquivo como cypress.env.json, que, em um cenário real, você atualizaria com credenciais válidas.
+> O cypress.env.jsonarquivo está incluído .gitignoree você pode ficar tranquilo, pois as informações confidenciais não serão controladas por versão.
 
-## Vamos começar?
+Execute npm test(ou, npm tpara a versão abreviada) para executar o teste no modo headless.
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
+Ou execute o comando npm run cy:openpara abrir o Cypress no modo interativo.
 
+## Apoie este projeto
+Se você quiser apoiar este projeto, deixe uma ⭐.
 ___
-
-Este é um curso da **Escola Talking About Testing**.
+Este projeto foi criado com 💚 por [Walmyr](https:walmyr.dev).
